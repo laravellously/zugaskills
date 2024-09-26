@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     'pinia-plugin-persistedstate/nuxt',
-    "@prisma/nuxt",
+    // "@prisma/nuxt",
     "@nuxt/icon",
     "@nuxt/eslint",
     "nuxt-lodash",
