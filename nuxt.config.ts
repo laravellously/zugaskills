@@ -12,11 +12,20 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "nuxt-lodash",
     'shadcn-nuxt',
-    "nuxt-directus"
+    // "nuxt-directus"
   ],
   icon: {
     serverBundle: {
       collections: ['uil'] // <!--- this
     }
+  },
+  tailwindcss: {
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: "first" }],
+    configPath: 'tailwind.config',
+    exposeConfig: {
+      level: 2
+    },
+    config: {},
+    viewer: false,
   }
 });
